@@ -1,0 +1,29 @@
+{
+    "name": "clase32",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/app.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon ./src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "connect-mongo": "^5.1.0",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-compression": "^1.0.2",
+        "express-handlebars": "^7.1.2",
+        "express-session": "^1.18.0",
+        "handlebars": "^4.7.8",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.4.0"
+    },
+    "devDependencies": {
+        "@types/compression": "^1.7.5",
+        "@types/node": "^20.12.12"
+    }
+}
